@@ -22,7 +22,7 @@
     "include": ["./src"],
     "exclude": ["node_modules", "public", "dist"],
     "files": [
-        "i18next.d.ts",
-        "theme.d.ts"
+        "./src/@types/i18next.d.ts",
+        "./src/@types/theme.d.ts"
     ]
 }

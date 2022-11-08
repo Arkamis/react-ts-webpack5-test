@@ -7,7 +7,8 @@
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --ignore-path .eslintignore --ext .tsx ./src",
+    "lint": "eslint --ignore-path .eslintignore ./src",
+    "lint:fix": "eslint --ignore-path .eslintignore ./src --fix",
     "dev": "webpack-dev-server --open --mode development --hot",
     "build": "webpack --mode production"
   },
