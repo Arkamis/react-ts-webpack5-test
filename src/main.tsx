@@ -1,3 +1,5 @@
+import "./i18n/config";
+
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 
