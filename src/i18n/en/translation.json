@@ -1,0 +1,36 @@
+
+
+{
+  "appTitle":"List App",
+  "languageSettings": {
+    "instructions":"Choose Language",  
+     "es": "Spanish",
+     "en": "English"
+  },
+  "todoList": {
+    "initialTitle": "My first to-do list!",
+    "placeholder": "Choose a title for your list...",
+    "actions": {
+      "addTodo": "add new task",
+      "editTodo": "Edit task",
+      "deleteTodo": "Delete task",
+      "editTitle": "Edit title"
+    },
+    "timestamps": {
+      "created":"",
+      "updated": ""
+    }
+  },
+  "actions": {
+    "save": "save",
+    "close": "close",
+    "cancel": "cancel",
+    "error": "We're sorry, something went wrong..."
+  },
+  "formValidation": {
+      "minLength": "Provided text is too short.",
+      "maxLength": "Provided text is too big.",
+      "required": "This field is required",
+      "noOnlyWhiteSpaces": "Please remove whitespace."
+    }
+}

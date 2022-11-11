@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "types": ["node", "jest", "@testing-library/jest-dom"],
+      "paths": {
+          "#/*": ["./*"]
+        },
+        "lib": ["es6", "dom"],
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "module": "ES6",
+        "target": "es5",
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": ["./src"],
+    "exclude": ["node_modules", "public", "dist", "**/*.test.ts", "*.js"],
+    "files": [
+        "./src/@types/theme.d.ts"
+    ],
+}

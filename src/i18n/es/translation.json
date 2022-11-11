@@ -1,0 +1,37 @@
+
+
+{
+  "appTitle":"App Listado",
+  "languageSettings": {
+    "instructions":"Cambiar idioma",  
+     "es": "Espanol",
+     "en": "Inglés"
+  },
+  "todoList": {
+    "initialTitle": "Mi primera lista!",
+    "placeholder": "Escribe un titulo para tu lista...",
+    "actions": {
+      "addTodo": "agregar nueva tarea",
+      "editTodo": "editar tarea",
+      "deleteTodo": "Eliminar tarea",
+      "editTitle": "Cambiar titulo"
+    },
+    "timestamps": {
+      "created":"",
+      "updated": ""
+    }
+  },
+  "actions": {
+    "save": "guardar",
+    "close": "cerrar",
+    "cancel": "cancelar",
+    "error": "Lo sentimos, algo salio mal..."
+
+  },
+  "formValidation": {
+      "minLength": "El texto ingresado es muy corto.",
+      "maxLength": "El texto ingresado es muy largo.",
+      "required": "Esta campo es requerido.",
+      "noOnlyWhiteSpaces": "Ingrese otros valores, no solo espacios en blanco."
+    }
+}
