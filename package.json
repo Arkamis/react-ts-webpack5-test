@@ -6,12 +6,16 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "test:debug": "jest -o --debug --watch --detectOpenHandles",
+    "test": "jest --verbose --forceExit",
     "coverage": "jest --coverage --forceExit",
     "lint": "eslint --ignore-path .eslintignore ./src",
     "coverage:web": "yarn run coverage",
     "lint:fix": "eslint --ignore-path .eslintignore ./src --fix",
-    "dev": "webpack-dev-server --open --mode development --hot",
-    "build": "webpack --mode production"
+    "dev": "webpack-dev-server --open --mode development --hot --config=./config/webpack.config.js",
+    "build": "webpack --mode production --config=./config/webpack.config.js",
+    "build:local" : "yarn run build --env NODE_ENV=production",
+    "start": "./node_modules/.bin/webpack --config=./config/webpack.config.js"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
