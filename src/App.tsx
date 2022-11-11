@@ -1,19 +1,17 @@
 import { Container } from "@mui/material";
+import MainLayout from "components/layout/MainLayout";
+import TodoList from "components/organisms/TodoList/TodoList";
 import * as React from "react";
-import { useTranslation } from "react-i18next";
-import { ThemeConfig } from "theme";
 
 function App() {
-  const { t } = useTranslation();
-
   return (
-    <ThemeConfig>
-      <React.Suspense fallback="loading...">
+    <React.Suspense fallback="loading...">
+      <MainLayout>
         <Container fixed>
-          <div>{t`appTitle`}</div>
+          <TodoList />
         </Container>
-      </React.Suspense>
-    </ThemeConfig>
+      </MainLayout>
+    </React.Suspense>
   );
 }
 
