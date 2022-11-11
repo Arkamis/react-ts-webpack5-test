@@ -4,23 +4,11 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import Backend from "i18next-http-backend";
 import { initReactI18next } from "react-i18next";
 
+import { defaultNS, resources } from "./common";
+
 // don't want to use this?
 // have a look at the Quick start guide
 // for passing in lng and translations on init
-import EnglishTranslation from "./en/translation.json";
-import SpanishTranslation from "./es/translation.json";
-
-export const defaultNS = "home";
-
-export const resources = {
-  en: {
-    home: EnglishTranslation,
-  },
-  es: {
-    home: SpanishTranslation,
-  },
-} as const;
-
 i18n
   // load translation using http -> see /public/locales (i.e. https://github.com/i18next/react-i18next/tree/master/example/react/public/locales)
   // learn more: https://github.com/i18next/i18next-http-backend

@@ -22,7 +22,6 @@
     "include": ["./src"],
     "exclude": ["node_modules", "public", "dist"],
     "files": [
-        "./src/@types/i18next.d.ts",
         "./src/@types/theme.d.ts"
-    ]
+    ],
 }

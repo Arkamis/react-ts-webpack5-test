@@ -14,9 +14,9 @@ import shape from "./shape";
 import typography from "./typography";
 
 // ----------------------------------------------------------------------
-type Props = {
-  children: JSX.Element;
-};
+interface Props {
+  children: JSX.Element | JSX.Element[];
+}
 
 export const ThemeConfig = ({ children }: Props) => {
   const {
