@@ -1,2 +1,8 @@
 node_modules
 dist
+
+jest.config.js
+setupTests.ts
+webpack.config.js
+
+config
